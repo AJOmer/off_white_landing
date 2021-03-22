@@ -582,7 +582,7 @@ const useStyles = makeStyles((theme) => ({
       Footer: {
         background: "#EEEFF4",
         width: "72%",
-        marginLeft: "7em",
+        marginLeft: "13em",
         marginTop: "5em",
         [theme.breakpoints.down('md')]:{
           width: "100%",

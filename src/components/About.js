@@ -438,7 +438,7 @@ const useStyles = makeStyles((theme) => ({
       position: "absolute",
       left: "81%",
       [theme.breakpoints.up('lg')]:{
-          left:'82%'
+          left:'70%'
       },
       [theme.breakpoints.down("md")]: {
         width: "17%",
@@ -742,7 +742,7 @@ const useStyles = makeStyles((theme) => ({
               Collection
             </Grid>
   
-            <Grid item className={classes.links} component={Link} to="/aboutus">
+            <Grid item className={classes.links} component={Link} to="/about">
               About Us
             </Grid>
   
