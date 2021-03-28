@@ -6,10 +6,10 @@ import heroCard from '../assets/about/desktop/virgil-hero.jpg';
 import heroCardMobile from '../assets/about/desktop/virgil-hero.jpg';
 import heroCardTab from '../assets/about/desktop/virgil-hero.jpg';
 import heritage from '../assets/about/desktop/virgil-heritage.jpg';
-import headShot from '../assets/about/desktop/virgil-headshot.jpg';
-import headShot2 from '../assets/about/desktop/virgil-headshot.jpg';
+import headShot from '../assets/about/desktop/offwhitebrand.jpg';
+import headShot2 from '../assets/about/desktop/offwhitebrand.jpg';
 import headShot3 from '../assets/about/desktop/virgil-headshot.jpg';
-import headShot4 from '../assets/about/desktop/virgil-headshot.jpg';
+import headShot4 from '../assets/about/desktop/offwhitebrand.jpg';
 import Logo from '../assets/offwhite.png';
 
 const useStyles = makeStyles((theme) => ({
@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: 600,
       color: "#eeeff4",
       [theme.breakpoints.up('lg')]:{
-        bottom:'12.0em',
+        bottom:'13.0em',
         left:'3.8em'
     },
     [theme.breakpoints.down('lg')]:{
@@ -600,12 +600,6 @@ const useStyles = makeStyles((theme) => ({
                       src={headShot}
                     />
                   </Grid>
-                  <Grid item className={classes.leadersName}>
-                    Jake Richards
-                  </Grid>
-                  <Grid item className={classes.leaderPosition}>
-                    Chief Architect
-                  </Grid>
                 </Grid>
   
                 <Grid
@@ -622,12 +616,6 @@ const useStyles = makeStyles((theme) => ({
                       alt="avatar of richards"
                       src={headShot2}
                     />
-                  </Grid>
-                  <Grid item className={classes.leadersName}>
-                    Thompson Smith
-                  </Grid>
-                  <Grid item className={classes.leaderPosition}>
-                    Head of Finance
                   </Grid>
                 </Grid>
               </Grid>
@@ -661,10 +649,10 @@ const useStyles = makeStyles((theme) => ({
                     style={{marginTop:matchesMD ? '0.25em' : null}}
                     className={classes.leadersName}
                   >
-                    Jackson Rourke
+                    Virgil Abloh
                   </Grid>
                   <Grid item className={classes.leaderPosition}>
-                    Lead Designer
+                    Creative Director
                   </Grid>
                 </Grid>
   
@@ -682,16 +670,6 @@ const useStyles = makeStyles((theme) => ({
                       alt="avatar of richards"
                       src={headShot4}
                     />
-                  </Grid>
-                  <Grid
-                    item
-                    style={{marginTop:matchesMD ? '0.25em' : null}}
-                    className={classes.leadersName}
-                  >
-                    Maria Simpson
-                  </Grid>
-                  <Grid item className={classes.leaderPosition}>
-                    Senior Architect
                   </Grid>
                 </Grid>
               </Grid>
