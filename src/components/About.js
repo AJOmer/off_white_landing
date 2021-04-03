@@ -279,7 +279,7 @@ const useStyles = makeStyles((theme) => ({
       
       [theme.breakpoints.up('lg')]:{
           marginLeft:"2em",
-          width:'34.4%'
+          width:'35.4%'
       },
       [theme.breakpoints.down("md")]: {
         width: "40%",
@@ -298,7 +298,7 @@ const useStyles = makeStyles((theme) => ({
       marginBottom: "5em",
       width: "25%",
       [theme.breakpoints.up('lg')]:{
-        width:'30%',
+        width:'35%',
         fontSize:'5em',
         margin:0,
         marginBottom:'4.4em'
@@ -500,13 +500,10 @@ const useStyles = makeStyles((theme) => ({
             className={classes.textContainer}
           >
             <Grid item className={classes.textTitle}>
-              Your team of professionals
+              The roots of the creator
             </Grid>
             <Grid item className={classes.textSubtitle}>
-              Our small team of world-class professionals will work with you every
-              step of the way. Strong relationships are at the core of everything
-              we do. This extends to the relationship our projects have with their
-              surroundings.
+            Abloh was born in Rockford, Illinois, on September 30, 1980. His parents were immigrants from Ghana, and his mother was a seamstress, while his father was the manager of a paint company. According to a previous article by Friedman, it was Abloh's mother who taught him how to sew. 
             </Grid>
           </Grid>
         </Grid>
@@ -533,21 +530,11 @@ const useStyles = makeStyles((theme) => ({
             </Grid>
             <Grid item className={classes.ourHeritageSubTitle}>
               {" "}
-              Founded in 2007, we started as a trio of architects. Our
-              complimentary skills and relentless attention to detail turned Arch
-              into one of the most sought after boutique firms in the country.
+              Abloh is regarded as one of the pioneers of high-end street fashion, or what he has called the "post-streetwear movement," with roots in the classic streetwear that originated in hip-hop and skating culture.
             </Grid>
             <Grid item className={classes.ourHeritageSubTitle}>
               {" "}
-              Speciliazing in Urban Design allowed us to focus on creating
-              exceptional structures that live in harmony with their surroundings.
-              We consider every detail from every surrounding element to inform
-              our designs.{" "}
-            </Grid>
-            <Grid item className={classes.ourHeritageSubTitle}>
-              {" "}
-              Our small team of world-class professionals provides input on every
-              project.
+              When the lines between luxury and streetwear were torn down, Abloh's influence was everywhere, from Balenciaga selling puffer jackets to Dior collaborating with Nike on limited edition Air Jordans to Louis Vuitton partnering with Supreme to Gucci working with legendary Harlem designer Dapper Dan.{" "}
             </Grid>
           </Grid>
           <Hidden mdDown>
@@ -565,7 +552,7 @@ const useStyles = makeStyles((theme) => ({
           className={classes.thridContainer}
         >
           <Grid item className={classes.theLeadersTitle}>
-            The Leaders
+            The Visionary
           </Grid>
   
           <Grid item className={classes.mainLeaders}>

@@ -36,28 +36,28 @@ import nikeOffMobile from '../assets/collection/mobile/nikeoff.jpg';
 
 const heroCards = [
     {
-        label: " IKEA x Virgil",
+        label: " IKEA x Virgil Abloh",
         img: homeDecor,
         text:
-          "  Project made for an art museum near Southwest London. Project Paramour isa statement of bold, modern architecture.",
+          "  MARKERAD, a limited edition collection designed in collaboration with world-renowned creative Virgil Abloh. Together we’ve updated a range of everyday objects – from clocks to chairs – with the kind of striking style that can help any home stand out.",
       },
       {
-        label: "Off-White Racers",
+        label: "Off-White SB Dunks",
         img: racers,
         text:
-          " A sequel theme project for a tower originally built in the 1800s. We achieved this with a striking look of brutal minimalism with modern touches.",
+          " Virgil Abloh pays homage to skate culture’s adoption of 1980’s Nike Basketball silhouettes with the Nike Dunk Low Off-White.",
       },
       {
-        label: "Temperature Collection",
+        label: "Off-White Clothing",
         img: temperature,
         text:
-          " The Seraph Station project challenged us to design a unique station that would transport people through time. The result is a fresh and futuristic model inspired by space stations.",
+          " Discover Virgil Abloh's take on street fashion. Off-White has been defining the grey area between black and white since 2013, and has become an iconic brand.",
       },
       {
-        label: "Designer Bags",
+        label: "Louis Vuitton x Virgil Abloh",
         img: bags,
         text:
-          " Trinity Bank challenged us to make a concept for a 84 story building located in the middle of a city with a high earthquake frequency. For this project we used curves to blend design and stability to meet our objectives.",
+          " Louis Vuitton is delighted to welcome Virgil Abloh as its new Men's Artistic Director.",
       },
 ];
 
@@ -297,11 +297,11 @@ const useStyles = makeStyles((theme) => ({
         },
       },
       smallTeamTitle: {
-        marginTop: "2.5em",
+        marginTop: "0.9em",
         color: "white",
         fontSize: "4.5em",
-        textAlign: "left",
-        width: "50%",
+        textAlign: "center",
+        width: "60%",
         marginLeft: "3.5em",
         fontFamily: "Spartan, sans-serif",
         fontWeight: 500,
@@ -322,8 +322,8 @@ const useStyles = makeStyles((theme) => ({
         },
       },
       smallTeamButtonContainer: {
-        textAlign: "left",
-        marginLeft: "16em",
+        textAlign: "center",
+        marginLeft: "22em",
         width: "45%",
         marginTop: "1em",
        
@@ -344,7 +344,7 @@ const useStyles = makeStyles((theme) => ({
         color: "white",
         fontFamily: "Spartan, sans-serif",
         fontWeight: 500,
-        width:'70%',
+        width:'60%',
         fontSize:'1em',
         '&:hover':{
             background:'eeeff4',
@@ -389,6 +389,13 @@ const useStyles = makeStyles((theme) => ({
         height: "33em",
         marginRight: "3.4em",
         backgroundSize:'100%',
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.4s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+          border: "1px solid #cccccc",
+        },
         [theme.breakpoints.down("md")]: {
           margin: '0 auto',
           width: "70%",
@@ -414,7 +421,13 @@ const useStyles = makeStyles((theme) => ({
         marginRight: "3.4em",
         backgroundSize:'100%',
         height:'33em',
-    
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.4s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+          border: "1px solid #cccccc",
+        },
         [theme.breakpoints.down("md")]: {
           margin: '0 auto',
           width: "70%",
@@ -437,6 +450,13 @@ const useStyles = makeStyles((theme) => ({
         backgroundRepeat: "no-repeat",
         backgroundSize:'100%',
         height:'33em',
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.4s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+          border: "1px solid #cccccc",
+        },        
         [theme.breakpoints.down("md")]: {
           margin: '0 auto',
           width: "70%",
@@ -452,46 +472,46 @@ const useStyles = makeStyles((theme) => ({
     
         },
       },
-      featuresTitle: {
-        color: "white",
-        marginTop: "18em",
-        fontWeight: 600,
-        textAlign: "left",
-        marginLeft: "2em",
-        fontFamily: "Spartan, sans-serif",
-        [theme.breakpoints.down("md")]: {
-          width: "80%",
-          margin:0,
-          marginTop:'2em',
-          marginLeft:'2em',
-          fontSize:'1.5em'
-        },
-        [theme.breakpoints.down("sm")]: {
-          width: "80%",
-          fontSize: "1.5em",
-          marginLeft:'1em',
-          margin:0
-        },
-      },
-      featuresLinks: {
-        color: "white",
+      // featuresTitle: {
+      //   color: "white",
+      //   marginTop: "18em",
+      //   fontWeight: 600,
+      //   textAlign: "left",
+      //   marginLeft: "2em",
+      //   fontFamily: "Spartan, sans-serif",
+      //   [theme.breakpoints.down("md")]: {
+      //     width: "80%",
+      //     margin:0,
+      //     marginTop:'2em',
+      //     marginLeft:'2em',
+      //     fontSize:'1.5em'
+      //   },
+      //   [theme.breakpoints.down("sm")]: {
+      //     width: "80%",
+      //     fontSize: "1.5em",
+      //     marginLeft:'1em',
+      //     margin:0
+      //   },
+      // },
+      // featuresLinks: {
+      //   color: "white",
     
-        textAlign: "left",
-        marginLeft: "2.4em",
-        fontFamily: "Spartan, sans-serif",
-        fontSize: "0.85em",
-        [theme.breakpoints.down("md")]: {
-          width: "80%",
-          margin: "0em auto",
-          marginLeft:'3.1em',
-          fontSize:'1em'
-        },
-        [theme.breakpoints.down("sm")]: {
-          width: "80%",
-          margin: "0em auto",
-          marginLeft:'1.7em'
-        },
-      },
+      //   textAlign: "left",
+      //   marginLeft: "1.3em",
+      //   fontFamily: "Spartan, sans-serif",
+      //   fontSize: "0.9em",
+      //   [theme.breakpoints.down("md")]: {
+      //     width: "80%",
+      //     margin: "0em auto",
+      //     marginLeft:'2.3em',
+      //     fontSize:'1em'
+      //   },
+      //   [theme.breakpoints.down("sm")]: {
+      //     width: "80%",
+      //     margin: "0em auto",
+      //     marginLeft:'4.8em'
+      //   },
+      // },
       numberOne: {
         color: "white",
         fontFamily: "Spartan, sans-serif",
@@ -826,22 +846,14 @@ const useStyles = makeStyles((theme) => ({
             </Grid>
 
             <Grid item className={classes.offWhiteSubtitle}>
-              We have a unique network and skillset to help bring your projects
-              to life. Our small team of highly skilled individuals combined
-              with our large network put us in a strong position to deliver
-              exceptional results.
+            OFF-WHITE c/o VIRGIL ABLOH™ is a fashion label rooted in current culture at a taste-level particular to now. With a specific opinion and not necessarily same with vision seasonal men's and women's collections are offered.
             </Grid>
             <Grid item className={classes.offWhiteSubtitle}>
-              Over the past 10 years, we have worked on all kinds of projects.
-              From stations to high-rise buildings, we create spaces that
-              inspire and delight.
+            There is a product offering of the brand also in the realm of furniture and ready made goods to further reinforce an approach to lifestyle.
             </Grid>
 
             <Grid item className={classes.offWhiteSubtitle}>
-              We work closely with our clients so that we understand the
-              intricacies of each project. This allows us to work in harmony the
-              surrounding area to create truly stunning projects that will stand
-              the test of time.
+            Manufacturing is based in Milan with a core value of the brand to be made from the best available and particular opinion regarding fabric, fit and fabrication.
             </Grid>
           </Grid>
           <Hidden mdDown>
@@ -861,12 +873,12 @@ const useStyles = makeStyles((theme) => ({
           }}
         >
           <Grid item className={classes.smallTeamTitle}>
-            Small Team, Big ideas
+            One Visionary, Infinite Designs
           </Grid>
 
           <Grid item className={classes.smallTeamButtonContainer}>
-            <Button variant="contained" className={classes.smallTeamButton}>
-              About us <ArrowRightAltIcon />
+            <Button variant="contained" className={classes.smallTeamButton} component={Link} to="/about">
+              About Virgil <ArrowRightAltIcon />
             </Button>
           </Grid>
         </div>
@@ -914,6 +926,7 @@ const useStyles = makeStyles((theme) => ({
             container
             direction="column"
             className={classes.featureNikeOffContainer}
+            component={Link} to="/collection"
           >
             <div
               style={{
@@ -925,18 +938,6 @@ const useStyles = makeStyles((theme) => ({
               <Grid item className={classes.numberOne}>
                 1
               </Grid>
-              <Grid item className={classes.featuresTitle}>
-                Project Del Sol
-              </Grid>
-              <Grid
-                
-                item
-                className={classes.featuresLinks}
-                component={Link}
-                to="/collection"
-              >
-                View All Projects
-              </Grid>
             </div>
           </Grid>
 
@@ -945,6 +946,7 @@ const useStyles = makeStyles((theme) => ({
             container
             direction="column"
             className={classes.featureSculptureImgContainer}
+            component={Link} to="/collection"
           >
             <div
               style={{
@@ -956,18 +958,6 @@ const useStyles = makeStyles((theme) => ({
               <Grid item className={classes.numberTwo}>
                 2
               </Grid>
-              <Grid item className={classes.featuresTitle}>
-                228B Tower
-              </Grid>
-              <Grid
-                
-                item
-                className={classes.featuresLinks}
-                component={Link}
-                to="/collection"
-              >
-                View All Projects
-              </Grid>
             </div>
           </Grid>
 
@@ -976,6 +966,7 @@ const useStyles = makeStyles((theme) => ({
             container
             direction="column"
             className={classes.featureShirtOffContainer}
+            component={Link} to="/collection"
           >
             <div
               style={{
@@ -986,18 +977,6 @@ const useStyles = makeStyles((theme) => ({
             >
               <Grid item className={classes.numberThree}>
                 3
-              </Grid>
-              <Grid item className={classes.featuresTitle}>
-                LePrototype
-              </Grid>
-              <Grid
-                
-                item
-                className={classes.featuresLinks}
-                component={Link}
-                to="/collection"
-              >
-                View All Projects
               </Grid>
             </div>
           </Grid>

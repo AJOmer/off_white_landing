@@ -92,6 +92,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -117,6 +123,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -142,6 +154,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -169,6 +187,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -196,6 +220,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -222,6 +252,12 @@ const useStyles = makeStyles((theme) => ({
         width: "29%",
         height: "30em",
         textDecoration: "none",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -248,6 +284,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -275,6 +317,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -300,6 +348,12 @@ const useStyles = makeStyles((theme) => ({
         width: "29%",
         height: "30em",
         textDecoration: "none",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -326,6 +380,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -352,6 +412,12 @@ const useStyles = makeStyles((theme) => ({
         height: "30em",
         textDecoration: "none",
         backgroundSize: "100%",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -378,6 +444,12 @@ const useStyles = makeStyles((theme) => ({
         width: "29%",
         height: "30em",
         textDecoration: "none",
+        '&:hover':{
+          transform: "translateY(-15px)",
+          transition: "all 0.6s ease-out",
+          box: "0px 4px 8px rgba(38, 38, 38, 0.2)",
+          top: "-4px",
+        },
         [theme.breakpoints.down("md")]: {
           margin: 0,
           width: "100%",
@@ -557,6 +629,7 @@ const Collection = () => {
               direction="column"
               className={classes.offWhiteOne}
               component={Link}
+              to="https://www.off---white.com/en-us/shopping/off-white-black-active-leggins-14916868"
             >
               <div
                 className={classes.backShadow}
@@ -582,6 +655,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.offWhiteTwo}
+              to="https://www.off---white.com/en-us/shopping/off-white-spray-marker-s-s-t-shirt-16251605"
             >
               <div
                 style={{
@@ -606,6 +680,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.offWhiteThree}
+              to="https://www.off---white.com/en-us/shopping/off-white-classic-industrial-belt-15281775"
             >
               <div
                 style={{
@@ -638,6 +713,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilIkeaOne}
+              to="https://www.off---white.com/en-us/shopping/man/homeware-bedding"
             >
               <div
                 style={{
@@ -662,6 +738,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilIkeaTwo}
+              to="https://www.off---white.com/en-us/shopping/man/homeware-furniture"
             >
               <div
                 style={{
@@ -686,6 +763,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilIkeaThree}
+              to="https://www.vitra.com/en-us/about-vitra/news/details/2020-virgil-abloh-vitra-2nd-drop"
             >
               <div
                 style={{
@@ -718,6 +796,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilLouisOne}
+              to="https://us.louisvuitton.com/eng-us/magazine/articles/men-by-virgil-abloh#"
             >
               <div
                 style={{
@@ -742,6 +821,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilLouisTwo}
+              to="https://us.louisvuitton.com/eng-us/magazine/articles/men-by-virgil-abloh#"
             >
               <div
                 style={{
@@ -766,6 +846,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilLouisThree}
+              to="https://us.louisvuitton.com/eng-us/magazine/articles/men-by-virgil-abloh#"
             >
               <div
                 style={{
@@ -798,6 +879,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilNikeOne}
+              to="https://stockx.com/air-jordan-1-retro-high-off-white-chicago"
             >
               <div
                 style={{
@@ -822,6 +904,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilNikeTwo}
+              to="https://stockx.com/nike-air-max-90-off-white"
             >
               <div
                 style={{
@@ -846,6 +929,7 @@ const Collection = () => {
               container
               direction="column"
               className={classes.virgilNikeThree}
+              to="https://stockx.com/nike-dunk-low-off-white-pine-green"
             >
               <div
                 style={{
