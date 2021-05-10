@@ -2,6 +2,7 @@ This React application combines react hooks and Material-UI grid system to deliv
 
 ![](off_white_gif.gif)![](off_white_landing_2.png)
 
+[Demo](https://master.dukm8xttut7o8.amplifyapp.com/)
 ## Technologies
 * JavaScript
 * React
