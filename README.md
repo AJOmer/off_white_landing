@@ -1,6 +1,6 @@
 This MERN-stack E-commerce application specializes in the sales and marketing of high-end branded clothes. Users can register for a profile while Admin privileges include uploading/creating/deleting products, overseeing orders, and authorization of additional admins. This application supports full CRUD-abilities and was built using React as the frontend JavaScript library, Express & Node.js for backend support, MongoDD for the databse, and the Stripe API for seamless payment operations.
 
-![](off_white_gif.gif)
+![](off_white_gif.gif)![](off_white_landing_2.png)
 
 ## Technologies
 * JavaScript
