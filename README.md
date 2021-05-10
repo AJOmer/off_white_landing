@@ -1,23 +1,20 @@
-This MERN-stack E-commerce application specializes in the sales and marketing of high-end branded clothes. Users can register for a profile while Admin privileges include uploading/creating/deleting products, overseeing orders, and authorization of additional admins. This application supports full CRUD-abilities and was built using React as the frontend JavaScript library, Express & Node.js for backend support, MongoDD for the databse, and the Stripe API for seamless payment operations.
+This React application combines react hooks and Material-UI grid system to deliver a professional re-imagined landing page for the Off-White brand. This was my heaviest exposure and experience with Material-UI, more than happy with how visually striking it turned out to be.
 
 ![](off_white_gif.gif)![](off_white_landing_2.png)
 
 ## Technologies
 * JavaScript
 * React
-* Express
-* MongoDb
 * Nodejs
-* Bootstrap/ReactStrap/Material-UI
-* Stripe API
+* Material-UI
+* AWS-Amplify
+
 
 ## Features
-* User authentication built with frontend React validations & Bcrypt password hashing.
-* Custom admin express routing for creating, updating, and deleting products.
-* Seamless and secure payments with Stripe API
-* Product view page renders magnification effect for closer look at products.
+* Material-UI gridding that perfectly spaced out component contents and delivered a competent and stunning uni-directional flow.
+* Custom theme breakpoints to ensure responsiveness on any device.
 
 ## Possible Future plans
-* Fully Responsive
-* Create a similar boiler-plate versio of this application 
-* Filtering by product specifications
+* Add location information through map marker on contact page
+* Auto-loop image carousel  
+* Search bar for off-white products
